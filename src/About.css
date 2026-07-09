@@ -1,0 +1,64 @@
+
+.teacher-info{
+  background: #f5f9ff;
+  border-left: 6px solid #4f46e5;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.teacher-info h2{
+  margin-bottom: 12px;
+  color: #1e3a8a;
+}
+
+.teacher-info p{
+  margin: 6px 0;
+  font-size: 17px;
+}
+
+.about{
+    width:1200px;
+    margin:40px auto;
+}
+
+.about h1{
+    text-align:center;
+    color:#2563eb;
+}
+
+.intro{
+    text-align:center;
+    margin:20px 0 40px;
+    font-size:18px;
+    color:#666;
+}
+
+.course-wrap{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+}
+
+.course{
+    width:320px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    padding:20px;
+}
+
+.course h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.course ul{
+    padding-left:20px;
+}
+
+.course li{
+    margin:8px 0;
+}

@@ -1,0 +1,92 @@
+.programming-summary {
+  width: 1100px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.programming-summary h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 40px;
+}
+
+.summary-section {
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.summary-section h2 {
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+
+.main-box {
+  background: #eff6ff;
+  border-left: 6px solid #2563eb;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.summary-card {
+  width: 230px;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.summary-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.code-box {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 18px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.student-box {
+  border: 2px solid #2563eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.student-title {
+  background: #2563eb;
+  color: white;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.student-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.student-content ul {
+  line-height: 1.9;
+}
+
+.warning {
+  margin-top: 15px;
+  color: #dc2626;
+  font-weight: bold;
+}

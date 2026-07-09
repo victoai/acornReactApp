@@ -1,0 +1,39 @@
+.staff-container {
+    width: 20%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.sub-title {
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.staff-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card h3 {
+    margin-top: 15px;
+}
+
+.card p {
+    color: #666;
+}

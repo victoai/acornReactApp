@@ -1,0 +1,47 @@
+.home {
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.hero-text button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background: #1d4ed8;
+}
