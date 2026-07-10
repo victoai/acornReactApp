@@ -12,6 +12,7 @@ import Product  from './Product';
 import Staff from './Staff';
 import Curriculum from "./Curriculum";
 import ProgrammingSummary from "./ProgrammingSummary";
+import KTJ from "./KTJ";
 
 import ProductDetail from "./ProductDetail";
 import { useState } from 'react';
@@ -33,6 +34,7 @@ function App() {
              <Link to="/staff">staff</Link>
              <Link to="/curriculum">Curriculum</Link>
              <Link to="/programming">프로그래밍정리</Link>
+             <Link to="/ktj">KTJ</Link>
     
              
              {/* 로그인성공여부에 따라  */}
@@ -60,6 +62,7 @@ function App() {
        <Route  path="/product/:id" element={<ProductDetail />} />  
        <Route path="/curriculum" element={<Curriculum />} />  
        <Route path="/programming" element={<ProgrammingSummary />} /> 
+       <Route path="/ktj" element={<KTJ />} />
     </Routes>
     </div>
   );
