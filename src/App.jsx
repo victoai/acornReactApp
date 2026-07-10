@@ -24,6 +24,7 @@ import Kjy from  "./Kjy";
 import KTJ  from  "./KTJ";
 import NHS  from  "./NHS";
 import Psi  from  "./Psi";
+import JHD  from  "./JHD";
 
 
 import ProductDetail from "./ProductDetail";
@@ -54,9 +55,10 @@ function App() {
              <Link to="/kmj">김민정</Link>
              <Link to="/kjy">고지연</Link>
 
-            <Link to="/ktj">김태준</Link>
-            <Link to="/nhs">나해수</Link>
-            <Link to="/psi">박세인</Link>
+             <Link to="/ktj">김태준</Link>
+             <Link to="/nhs">나해수</Link>
+             <Link to="/psi">박세인</Link>
+             <Link to="/JHD">장해든</Link>
          
     
              
@@ -96,6 +98,7 @@ function App() {
         <Route path="/ktj" element={<KTJ />} />
         <Route path="/nhs" element={<NHS />} />
         <Route path="/psi" element={<Psi />} />
+        <Route path="/JHD" element={<JHD />} />
     </Routes>
     </div>
   );
