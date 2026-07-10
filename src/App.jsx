@@ -12,6 +12,19 @@ import Product  from './Product';
 import Staff from './Staff';
 import Curriculum from "./Curriculum";
 import ProgrammingSummary from "./ProgrammingSummary";
+import Sjc  from  "./Sjc";
+import Kjm from   "./kjm";
+import Sys from  "./Sys";
+import Ydh from  "./Ydh";
+import KKH from  "./KKH";
+import KMJ  from  "./KMJ";
+import Kjy from  "./Kjy";
+
+
+import KTJ  from  "./KTJ";
+import NHS  from  "./NHS";
+import Psi  from  "./Psi";
+
 
 import ProductDetail from "./ProductDetail";
 import { useState } from 'react';
@@ -33,6 +46,18 @@ function App() {
              <Link to="/staff">staff</Link>
              <Link to="/curriculum">Curriculum</Link>
              <Link to="/programming">프로그래밍정리</Link>
+             <Link to="/sjc">송주창</Link>
+             <Link to="/kjm">김재민</Link>
+             <Link to="/sys">손영석</Link>
+             <Link to="/ydh">여도현</Link>
+             <Link to="/kkh">김건희</Link>
+             <Link to="/kmj">김민정</Link>
+             <Link to="/kjy">고지연</Link>
+
+            <Link to="/ktj">김태준</Link>
+            <Link to="/nhs">나해수</Link>
+            <Link to="/psi">박세인</Link>
+         
     
              
              {/* 로그인성공여부에 따라  */}
@@ -60,6 +85,17 @@ function App() {
        <Route  path="/product/:id" element={<ProductDetail />} />  
        <Route path="/curriculum" element={<Curriculum />} />  
        <Route path="/programming" element={<ProgrammingSummary />} /> 
+        <Route path="/sjc" element={<Sjc />} />  
+        <Route path="/kjm" element={<Kjm />} /> 
+        <Route path="/sys" element={<Sys />} /> 
+        <Route path="/ydh" element={<Ydh />} /> 
+        <Route path="/kkh" element={<KKH />} />
+        <Route path="/kmj" element={<KMJ />} />
+        <Route path="/kjy" element={<Kjy />} />
+
+        <Route path="/ktj" element={<KTJ />} />
+        <Route path="/nhs" element={<NHS />} />
+        <Route path="/psi" element={<Psi />} />
     </Routes>
     </div>
   );

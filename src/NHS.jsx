@@ -1,8 +1,10 @@
+import { useState } from "react";
+
 function NHS(){
     const [name, setName] = useState("나해수");
 
     function handleUpdate(){
-        setName("나혜수");
+        setName("나혜수^^");
     }
     
     return (
